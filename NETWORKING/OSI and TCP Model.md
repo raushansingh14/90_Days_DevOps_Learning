@@ -2,8 +2,9 @@
 
 
 The OSI model was developed by ISO (International Standards Organization) in the 1980s as a theoretical model to standardize communication.It has 7 layers, 
- each with a specific role. 
- 🔹 OSI Layers (Top to Bottom):
+each with a specific role. 
+ 
+## OSI Layers (Top to Bottom):
 
 Layer Number | Layer Name | Function
 7 | Application | Provides services directly to user applications (e.g., browsers, email clients)
