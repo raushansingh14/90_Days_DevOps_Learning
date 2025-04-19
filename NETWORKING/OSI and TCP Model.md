@@ -1,16 +1,15 @@
-# OSI (Open Systems Interconnection Model)and TCP/IP (Transmission Control Protocol / Internet Protocol) Models
+# OSI (Open Systems Interconnection) and TCP/IP (Transmission Control Protocol / Internet Protocol) Models
 
 
 The OSI model was developed by ISO (International Standards Organization) in the 1980s as a theoretical model to standardize communication.It has 7 layers, 
 each with a specific role. 
  
 ## OSI Layers (Top to Bottom):
+- | Layer Number | Layer Name                     | Function                                                                      |
+|--------------|-------------------------------|-------------------------------------------------------------------------------|
+| 4            | **Application**                | Combines OSI's application, presentation, and session layers                 |
+| 3            | **Transport**                  | Responsible for reliable/unreliable transmission (TCP/UDP)                  |
+| 2            | **Internet**                   | Responsible for logical addressing and routing (IP, ICMP)                   |
+| 1            | **Network Access** (or Link Layer) | Combines OSI's data link and physical layers                          |
 
-Layer Number | Layer Name | Function
-7 | Application | Provides services directly to user applications (e.g., browsers, email clients)
-6 | Presentation | Translates, encrypts, compresses data (e.g., encoding like JPEG, ASCII)
-5 | Session | Manages sessions and connections (e.g., login sessions)
-4 | Transport | Provides reliable delivery, error checking, segmentation (e.g., TCP/UDP)
-3 | Network | Handles routing, logical addressing (e.g., IP addresses, routers)
-2 | Data Link | MAC addressing, frames, error detection (e.g., switches, NICs)
-1 | Physical | Physical connection — cables, bits, signals (e.g., Ethernet cables)
+
