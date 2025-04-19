@@ -67,3 +67,114 @@ This is the layer where users interact with applications like browsers (Chrome),
 
 
 
+
+
+
+
+# Lets say in browser you typed "www.sbi.com"  then how OSI model works
+
+## 1. Application Layer (Layer 7) – You Request a Website
+This is where your web browser (Chrome, Firefox) operates.
+
+You type "www.sbi.com" in the browser and hit Enter.
+
+The browser sends a request using the HTTP or HTTPS protocol.
+
+
+📌 Networking Example: The browser acts as the application requesting a webpage from the SBI web server.
+
+## 2. Presentation Layer (Layer 6) – Data Formatting & Encryption
+
+The browser formats the request into a proper format that the SBI web server can understand.
+
+If you’re using HTTPS (secured connection), this layer encrypts the data for security.
+
+
+📌 Networking Example: SSL/TLS encryption happens here when using HTTPS.
+
+## 3. Session Layer (Layer 5) – Establishing a Connection with SBI Server
+
+Your computer starts a session (a conversation) with SBI’s web server.
+
+It keeps track of the session so multiple requests (like loading images, CSS, JavaScript) don’t get mixed up.
+
+📌 Networking Example: Your browser and SBI’s server establish a secure session (TCP handshake).
+
+## 4. Transport Layer (Layer 4) – Breaking Data into Small Packets
+
+Your request is broken into small segments to be sent over the network.
+
+TCP (Transmission Control Protocol) ensures reliable delivery.
+
+📌 Networking Example:
+
+TCP ensures each packet reaches the SBI server in the correct order.
+
+If a packet is lost, TCP resends it.
+
+## 5. Network Layer (Layer 3) – Finding the SBI Server’s IP Address
+
+Your browser doesn't understand www.sbi.com directly.
+
+It sends a request to a DNS (Domain Name System) server, which translates "www.sbi.com" into an IP address (e.g., 103.10.125.2).
+
+Now, your computer knows where to send the request.
+
+📌 Networking Example:
+
+Your request is forwarded through routers, which choose the best path to SBI’s server.
+
+The IP address of the SBI server is used for communication.
+
+## 6. Data Link Layer (Layer 2) – Converting Data into Frames & MAC Addresses
+
+The data is converted into frames with a MAC address (hardware address of your router).
+
+If you’re using Wi-Fi, it will send the request wirelessly; if using Ethernet, it will go through a cable.
+
+📌 Networking Example:
+
+Your Wi-Fi router assigns a MAC address for communication.
+
+The router sends the request towards the SBI web server.
+
+## 7. Physical Layer (Layer 1) – Sending Data as Electrical Signals
+
+The data is transmitted as electrical signals (Ethernet), radio waves (Wi-Fi), or light pulses (fiber-optic cable).
+
+The data physically travels through network cables, switches, routers, and finally reaches the SBI server.
+
+📌 Networking Example:
+
+Your request travels through multiple routers, undersea cables, and networks before reaching SBI’s web server.
+
+## What Happens Next? (Response from SBI Server)
+
+Now, the SBI web server receives your request, processes it, and sends back the website’s data in the reverse order:
+
+- SBI server processes the request at the Application Layer.
+
+- Data is formatted and encrypted at the Presentation Layer.
+
+- A session is maintained between your computer and the SBI server.
+
+- The response is broken into TCP segments at the Transport Layer.
+
+- The server's IP address is used to send data back at the Network Layer.
+
+- The data is converted into frames and sent at the Data Link Layer.
+
+- The data travels back to your computer as electrical signals or Wi-Fi signals.
+
+- Your browser receives the webpage, and you see "www.sbi.com" loaded on your screen! 🎉
+
+
+
+
+
+
+
+
+
+
+
