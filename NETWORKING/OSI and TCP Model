@@ -1,5 +1,5 @@
 # 🌐 OSI (Open Systems Interconnection Model)and TCP/IP (Transmission Control Protocol / Internet Protocol) Models 
--The OSI model was developed by ISO (International Standards Organization) in the 1980s as a theoretical model to standardize communication.It has 7 layers, 
+The OSI model was developed by ISO (International Standards Organization) in the 1980s as a theoretical model to standardize communication.It has 7 layers, 
  each with a specific role. 
  🔹 OSI Layers (Top to Bottom):
 
