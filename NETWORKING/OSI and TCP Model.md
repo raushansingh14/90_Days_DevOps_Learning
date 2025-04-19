@@ -43,7 +43,7 @@ This layer ensures that data is delivered error-free, in the right order, and wi
 
 📌 Example: Imagine your letter is sent in multiple pages, and you need to ensure they arrive in the right order. The transport layer (TCP or UDP) manages this by breaking data into segments and reassembling it correctly at the receiver’s end.
 
-### 5. Session Layer (Starting & Managing the Conversation)
+### 5. Session Layer (Making a phone call, having conversation and then hanging up)
 This layer establishes, maintains, and ends communication between devices.
 
 📌 Example: Think of it as a phone call between you and your friend—you need to first connect, talk, and then hang up when done. The session layer handles this connection in a computer network.
@@ -57,4 +57,13 @@ This layer translates, encrypts, and compresses data so that the receiving compu
 This is the layer where users interact with applications like browsers (Chrome), emails (Gmail), and messaging apps (WhatsApp).
 
 📌 Example: Your friend opens the letter and reads it—this is how applications (like web browsers or email clients) display information to users.
+
+
+
+
+![tcpip_osi_mapping](https://github.com/user-attachments/assets/36cf6683-5901-48a4-8ce5-131533afa2eb)
+
+
+
+
 
