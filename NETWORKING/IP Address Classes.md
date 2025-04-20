@@ -98,7 +98,6 @@ Not used in normal networking.
 
 A few bits in the first octet of each class are fixed to identify the class of the address quickly.
 
-![Uploading image.png…]()
 
 
 
@@ -119,5 +118,8 @@ This helps in:
 
 ## Subnet Mask
 The Subnet Mask determines which part of an IP address belongs to the network and which part belongs to the host.
+
+
+
 
 
