@@ -1,5 +1,5 @@
 
-# Classes of IP Addresses
+# 🌐Classes of IP Addresses
 
 The IP address space is divided into five classes (A, B, C, D, and E) based on how many bits are allocated for network and host identification.
 
@@ -97,7 +97,7 @@ Not used in normal networking.
 
 
 
-# Why few bits in first Octet are fixed in each class
+# 🌐Why few bits in first Octet are fixed in each class
 
 A few bits in the first octet of each class are fixed to identify the class of the address quickly.
 
@@ -172,7 +172,7 @@ So, usable range is 240 – 255.
 ✅ Why? Reserved for future experimental use.
 
 
-## subnetting can be done on two basis 1. according to netwrok requirement 2. according to host requirement 
+# 🌐subnetting can be done on two basis 1. according to netwrok requirement 2. according to host requirement 
 
 
 ## What is Subnetting?
