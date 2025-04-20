@@ -3,9 +3,12 @@
 
 The IP address space is divided into five classes (A, B, C, D, and E) based on how many bits are allocated for network and host identification.
 
+![image](https://github.com/user-attachments/assets/b75d01c8-6029-497b-9b11-4cc49e34110c)
+
+
 Breakdown of Each Class (With Example IPs)
 
-## 🅰️ Class A (1.0.0.0 - 191.255.255.255 )
+## 🅰️ Class A (1.0.0.0 - 126.255.255.255 )
 
 First Octet Range: 1-126
 
