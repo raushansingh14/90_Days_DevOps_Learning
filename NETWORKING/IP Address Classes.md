@@ -103,8 +103,9 @@ A few bits in the first octet of each class are fixed to identify the class of t
 
 
 
+![image](https://github.com/user-attachments/assets/ab5fe230-3af0-45f0-9459-f2ba09e58900)
 
-![image](https://github.com/user-attachments/assets/56528784-e3ec-485e-98ff-cc5ba9a3d393)
+
 
 
 
