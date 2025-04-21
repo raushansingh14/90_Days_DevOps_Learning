@@ -5,5 +5,5 @@
 
 ## 🚀 to see how many files as of now tracked in git
 
-- ubuntu@ip-172-31-25-24:~/git_practice_folder$ git ls-files
-a.txt
+- ubuntu@ip-172-31-25-24:~/git_practice_folder$ **git ls-files**
+   - a.txt
