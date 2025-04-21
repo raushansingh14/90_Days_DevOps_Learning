@@ -125,6 +125,7 @@ ubuntu@ip-172-31-25-24:~$ ping google.com > ping_test.log & >>>>>this will save 
 ubuntu@ip-172-31-25-24:~$ jobs >>>>>>>>>>>>> to verify running process
 
 [1]+  Stopped                 vim /etc/ssh/ssh_config  (wd: ~/practice_20Apr)
+
 [2]-  Running                 ping google.com > ping_test.log & >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 ## `top`
