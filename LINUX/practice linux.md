@@ -1,6 +1,6 @@
 ## 🌐how to check size of any folder 
 
-ubuntu@ip-172-31-25-24:~$ du -sh /home/ubuntu/
+- ubuntu@ip-172-31-25-24:~$ du -sh /home/ubuntu/
 
 5.6G    /home/ubuntu/
 
@@ -21,15 +21,15 @@ ubuntu@ip-172-31-25-24:~$ du -sh /home/ubuntu/
 
 ### first create group 
 
-sudo groupadd devops_team
+- sudo groupadd devops_team
 
 ### and below command user will be created and also will be added in group 
 
-sudo useradd -m -s /bin/bash -G devops_team ram_singh
+- sudo useradd -m -s /bin/bash -G devops_team ram_singh
 
 ### to grant access add the user in sudo group /etc/group u can see there 
 
-ubuntu@ip-172-31-25-24:~$ sudo usermod -aG sudo devops_user
+- ubuntu@ip-172-31-25-24:~$ sudo usermod -aG sudo devops_user
 
 
 
