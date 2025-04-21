@@ -111,11 +111,65 @@ Task:
 
 
 
+# TASK 3
+
+## Process Management & Monitoring
+Task:
+- Start a background process (ping google.com > ping_test.log &).
+  - Use ps, top, and htop to monitor it.
+  - Kill the process and verify it's gone.
+ 
+ubuntu@ip-172-31-25-24:~$ ping google.com > ping_test.log & >>>>>this will save the output in file ping_test.log and because of & will be running continiously in background
 
 
+ubuntu@ip-172-31-25-24:~$ jobs >>>>>>>>>>>>> to verify running process
+[1]+  Stopped                 vim /etc/ssh/ssh_config  (wd: ~/practice_20Apr)
+[2]-  Running                 ping google.com > ping_test.log & >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+## `top`
+
+press / then type ping and press enter     >>>>>will filter ping running process
+
+## `ps`
+
+ubuntu@ip-172-31-25-24:~$ ps
+    PID TTY          TIME CMD
+   3031 pts/2    00:00:00 bash
+   3127 pts/2    00:00:00 vim
+   3161 pts/2    00:00:00 ping
+   3654 pts/2    00:00:00 ps
+ubuntu@ip-172-31-25-24:~$
+ubuntu@ip-172-31-25-24:~$
+ubuntu@ip-172-31-25-24:~$ ps -aux | grep ping
+ubuntu      3161  0.0  0.2   8072  2688 pts/2    S    14:29   0:00 ping google.com
+ubuntu      3659  0.0  0.2   7076  2048 pts/2    S+   15:00   0:00 grep --color=auto ping
+ubuntu@ip-172-31-25-24:~$
+
+## `htop`
+
+Use arrow keys to find the ping process
+
+Or press / and type ping to filter
+
+You can kill it directly from htop by selecting and pressing F9, then choose signal 9
 
 
+## `kill`
 
+
+ubuntu@ip-172-31-25-24:~$ ps
+    PID TTY          TIME CMD
+   3031 pts/2    00:00:00 bash
+   3127 pts/2    00:00:00 vim
+   3161 pts/2    00:00:00 ping
+   3664 pts/2    00:00:00 ps
+ubuntu@ip-172-31-25-24:~$
+ubuntu@ip-172-31-25-24:~$ kill 3161
+ubuntu@ip-172-31-25-24:~$
+[2]-  Terminated              ping google.com > ping_test.log
+ubuntu@ip-172-31-25-24:~$ jobs
+[1]+  Stopped                 vim /etc/ssh/ssh_config  (wd: ~/practice_20Apr)
+ubuntu@ip-172-31-25-24:~$
 
 
 
