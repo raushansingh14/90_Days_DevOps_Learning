@@ -134,19 +134,8 @@ press / then type ping and press enter     >>>>>will filter ping running process
 
 ## `ps`
 
-- ubuntu@ip-172-31-25-24:~$ ps
-    PID TTY          TIME CMD
-   3031 pts/2    00:00:00 bash
-   3127 pts/2    00:00:00 vim
-   3161 pts/2    00:00:00 ping
-   3654 pts/2    00:00:00 ps
-  
-ubuntu@ip-172-31-25-24:~$
+![image](https://github.com/user-attachments/assets/bd5f3721-d861-4d42-b6c1-bcf02dbc99a6)
 
-- ubuntu@ip-172-31-25-24:~$ ps -aux | grep ping
-ubuntu      3161  0.0  0.2   8072  2688 pts/2    S    14:29   0:00 ping google.com
-ubuntu      3659  0.0  0.2   7076  2048 pts/2    S+   15:00   0:00 grep --color=auto ping
-ubuntu@ip-172-31-25-24:~$
 
 ## `htop`
 
@@ -160,19 +149,8 @@ You can kill it directly from htop by selecting and pressing F9, then choose sig
 ## `kill`
 
 
-ubuntu@ip-172-31-25-24:~$ ps
-    PID TTY          TIME CMD
-   3031 pts/2    00:00:00 bash
-   3127 pts/2    00:00:00 vim
-   3161 pts/2    00:00:00 ping
-   3664 pts/2    00:00:00 ps
-ubuntu@ip-172-31-25-24:~$
-ubuntu@ip-172-31-25-24:~$ kill 3161
-ubuntu@ip-172-31-25-24:~$
-[2]-  Terminated              ping google.com > ping_test.log
-ubuntu@ip-172-31-25-24:~$ jobs
-[1]+  Stopped                 vim /etc/ssh/ssh_config  (wd: ~/practice_20Apr)
-ubuntu@ip-172-31-25-24:~$
+![image](https://github.com/user-attachments/assets/c929182e-37c7-4d80-a905-c3303477feb1)
+
 
 
 
