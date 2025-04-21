@@ -154,6 +154,27 @@ You can kill it directly from htop by selecting and pressing F9, then choose sig
 
 
 
+# TASK 4
+
+Automate Backups with Shell Scripting
+
+- Write a shell script to back up /devops_workspace as backup_$(date +%F).tar.gz.
+- Save it in /backups and schedule it using cron.
+- Make the script display a success message in green text using echo -e.
+
+## Script:
+
+![image](https://github.com/user-attachments/assets/e7c09d45-31a3-40b6-8778-9bf03ec30832)
+
+## Crontab to automate the script
+
+![image](https://github.com/user-attachments/assets/1428e504-8e6f-44ea-b832-10307e31468d)
+
+
+
+## NOTE while running these scripts I felt error because script was assigned to root not ubuntu so i changed it after that started working
+
+![image](https://github.com/user-attachments/assets/ae1261a3-2cae-40f6-9148-dacd8749bf09)
 
 
 
