@@ -1,3 +1,5 @@
+# TASK 1
+
 ## 🌐how to check size of any folder 
 
 - ubuntu@ip-172-31-25-24:~$ du -sh /home/ubuntu/
@@ -81,6 +83,31 @@ After changing this file, restart SSH:
 - 📌 If you make changes here, it affects all SSH remote access to your system.
 
 
+
+# Delete everything from specific folder exceept that folder 
+
+## if u inside the folder 
+
+-`rm -rf ./*`
+
+## if outside the folder and lets say want to delete file from practice_20Apr foldder
+
+- `rm -rf practice_20apr/*`
+
+
+
+
+# TASK 2
+
+## 🌐 File & Directory Permissions
+
+Task:
+- Create `/devops_workspace` and a `file project_notes.txt`.
+- Set permissions:
+  - **Owner can edit**, **group can read**, **others have no access**.
+-Use ls -l to verify permissions.
+
+![image](https://github.com/user-attachments/assets/9a466954-551d-4962-81ef-8adaf7ac9b8a)
 
 
 
