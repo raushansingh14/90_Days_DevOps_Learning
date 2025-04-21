@@ -39,10 +39,46 @@
 
 
 
+# 🚀 Blocking user or group to do ssh
 
+- Edit the SSH configuration file like below :
 
+- sudo vim /etc/ssh/sshd_config >>>>>this will open window press i then follow the below steps to add command for allowing and disallowing
 
+- DenyUsers user1 user2   >>>>this will deny 
 
+- AllowUsers devops_user adminuser  >>>>this will allow only these specific users
+
+like wise you can also block group so eventually it will block all users under that group
+
+- DenyGroups developers testers >>>>All users who belong to these groups are not allowed SSH access.
+- AllowGroups devops_team admins >>>All users who belong to these groups are allowed SSH access.
+
+once done then press esc + wq to save the file 
+  
+After changing this file, restart SSH:
+
+- sudo systemctl restart ssh
+
+# 🔍 Why is it ssh and not sshd?
+
+- Ubuntu uses the openssh-server package, and the service is registered as ssh.service.
+
+- Other distros like CentOS or RHEL often call it sshd.
+
+# 🔐 What is /etc/ssh/sshd_config?
+
+- This is the main configuration file for the SSH server (the daemon: sshd). It controls:
+
+- Who can log in via SSH
+
+- How they authenticate (password, key, etc.)
+
+- Which users are allowed or denied access
+
+- Other security settings (port, timeout, root login, etc.)
+
+- 📌 If you make changes here, it affects all SSH remote access to your system.
 
 
 
