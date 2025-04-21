@@ -134,15 +134,16 @@ press / then type ping and press enter     >>>>>will filter ping running process
 
 ## `ps`
 
-ubuntu@ip-172-31-25-24:~$ ps
+- ubuntu@ip-172-31-25-24:~$ ps
     PID TTY          TIME CMD
    3031 pts/2    00:00:00 bash
    3127 pts/2    00:00:00 vim
    3161 pts/2    00:00:00 ping
    3654 pts/2    00:00:00 ps
+  
 ubuntu@ip-172-31-25-24:~$
-ubuntu@ip-172-31-25-24:~$
-ubuntu@ip-172-31-25-24:~$ ps -aux | grep ping
+
+- ubuntu@ip-172-31-25-24:~$ ps -aux | grep ping
 ubuntu      3161  0.0  0.2   8072  2688 pts/2    S    14:29   0:00 ping google.com
 ubuntu      3659  0.0  0.2   7076  2048 pts/2    S+   15:00   0:00 grep --color=auto ping
 ubuntu@ip-172-31-25-24:~$
