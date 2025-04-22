@@ -50,3 +50,15 @@
 
 ![image](https://github.com/user-attachments/assets/36cc84e8-064c-411b-813c-9e250eaf9fa7)
 
+
+- likewise you can switch to dev branch and you use above command to send files in desired remote branch
+
+ - ## Push local dev to remote master
+   - git push origin dev:master
+
+-  ## Push local dev to remote feature-1
+   - git push origin dev:feature-1
+
+-  ## Push local dev to remote feature-2
+   - git push origin dev:feature-2
+
