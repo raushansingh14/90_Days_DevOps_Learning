@@ -61,4 +61,14 @@
 
 -  ## Push local dev to remote feature-2
    - git push origin dev:feature-2
+ 
+
+Lets say if you just giving the 
+  - git push origin dev  >>>>>>>“Push the local branch dev to the remote origin( ie: Git_1 because it added as origin), and create (or update) a branch named dev there.” means if there are already dev branch on origin Git_1
+    then it will push under that if not then git will create branch of same name dev and push uder that. so it means  git also sets an upstream tracking relationship: Local dev ↔ origin/dev and so on.
+    so in short:
+    
+    ## git push       # and Git knows to push dev → origin/dev
+    ## git pull       # pulls from origin/dev into local dev
+
 
