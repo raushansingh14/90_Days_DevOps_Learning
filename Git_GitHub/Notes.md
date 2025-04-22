@@ -33,6 +33,10 @@
  
 ![image](https://github.com/user-attachments/assets/f746e9af-b573-45d9-93b7-5567719b581d)
 
+
+- so here you are adding https link of remote repository not the ssh link if you want you can add ssh link as well if you have private and public key. so its not like you can add only https link you can add ssh
+   link as well if you want and have private-public key
+
 ## git push origin master >>>>this will send local master branch to git1 because origin is corresponding to git 1
 
 ## git push git2 master >>>> this will send local master branch to remote git2 repo 
