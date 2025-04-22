@@ -17,5 +17,36 @@
 - when you create the branch those are stored as files under .git/refs/heads
 
 
+###########################################
 
+- Lets say on GitHub we have multiple repository like Git_1, Git_2, Git_3 and so on and on local repository we have git_practice_folder if I want to send file from local to remote repository how it will be differentiated 
+  that I am sending that to Git_1, or Git_2, or Git_3 remote repository. so you have to add them on local
+
+   ## Add GitHub repository Git_1
+   - git remote add origin https://github.com/your-username/Git_1.git >>>>>>here origin is default so giving to first remote repository. if you adding first time only one remote repo so we give that 
+
+   ## Add second remote
+   - git remote add git2 https://github.com/your-username/Git_2.git
+
+   ## Add third remote
+   - git remote add git3 https://github.com/your-username/Git_3.git
+ 
+![image](https://github.com/user-attachments/assets/f746e9af-b573-45d9-93b7-5567719b581d)
+
+## git push origin master >>>>this will send local master branch to git1 because origin is corresponding to git 1
+
+## git push git2 master >>>> this will send local master branch to remote git2 repo 
+
+## git push git3 master >>>this will send local master branch to remote git3 repo 
+
+
+
+################################################
+
+- lets consider I have local rep git_practice_folder which has branch master , dev, sbc, and cucm , total 4 branch. and remote repo Git_1 having branch master, feature-1, feature-2
+  consider below push scenario:
+  - local master branch to remote master, feature-1, feature-2
+  - local dev branch to remote master, feature-1, feature-2
+
+![image](https://github.com/user-attachments/assets/36cc84e8-064c-411b-813c-9e250eaf9fa7)
 
