@@ -68,7 +68,7 @@ Lets say if you just giving the
     then it will push under that if not then git will create branch of same name dev and push uder that. so it means  git also sets an upstream tracking relationship: Local dev ↔ origin/dev and so on.
     so in short:
     
-    ## git push       # and Git knows to push dev → origin/dev
-    ## git pull       # pulls from origin/dev into local dev
+    ## git push       # Git knows to push local dev → origin/dev
+    ## git pull       # Git knows pulls from origin/dev into local dev
 
 
