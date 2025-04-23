@@ -100,6 +100,10 @@ Lets say if you just giving the
 
 
 
+so depending on your situation once you added those thing then do pull git pull origin master/or branch name 
+
+
+
 
 
 
