@@ -76,3 +76,31 @@ Lets say if you just giving the
     ## git pull       # Git knows pulls from origin/dev into local dev
 
 
+
+# 😵When you created some repository in local and also have some repository on remote  and each having some commit so facing issue when doing first time push on remote
+ - ## lets say in my local repository I did three commit A, B, C on 22 April at 10 am 11 am 12 PM IST and in remote repository git_1 dit commit D at 7 PM IST and in git_2 did commit E at 10 PM IST on same day now explain 
+      w.r.t
+
+  ![image](https://github.com/user-attachments/assets/2a7e4593-5dac-4e72-ab27-ce95c6e1c384)
+
+  ![image](https://github.com/user-attachments/assets/7d41e614-4d43-449a-8eee-c0194d6c5069)
+
+  - ## SOLUTION
+
+    ![image](https://github.com/user-attachments/assets/536d12c8-d221-44ee-8d98-dfa44d6a74a7)
+
+    ![image](https://github.com/user-attachments/assets/b5645115-7a8d-4baf-ac4b-ae4f2db5b6af)
+
+    ![image](https://github.com/user-attachments/assets/6b82baf7-8e87-4d29-a157-ffd48b897f74)
+
+    ![image](https://github.com/user-attachments/assets/2d7a8a96-d052-42c7-9ab9-c76342ecec58)
+
+    ![image](https://github.com/user-attachments/assets/8ef0c590-61e7-429d-88d1-321c679bf40a)
+
+
+
+
+
+
+
+   
