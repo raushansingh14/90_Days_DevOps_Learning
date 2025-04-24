@@ -103,7 +103,12 @@ Lets say if you just giving the
 so depending on your situation once you added those thing then do pull git pull origin master/or branch name 
 
 
-- ## 💭 you can clone anywhere its not necessary that folder should be repository
+- ## 💭 you can clone anywhere on local its not necessary that folder should be repository. once you clone it will create folder of same name like repository and that folder will be repository no need to make them 
+    repository
+
+  
+
+  
 
   
 
