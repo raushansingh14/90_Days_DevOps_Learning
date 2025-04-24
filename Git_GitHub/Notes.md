@@ -103,8 +103,9 @@ Lets say if you just giving the
 so depending on your situation once you added those thing then do pull git pull origin master/or branch name 
 
 
+- ## 💭 you can clone anywhere its not necessary that folder should be repository
 
-
+  
 
 
    
