@@ -12,17 +12,9 @@
 ## solution:
 
 ubuntu@ip-172-31-25-24:~$ git clone https://github.com/raushansingh14/90DaysOfDevOps.git
-Cloning into '90DaysOfDevOps'...
-remote: Enumerating objects: 3009, done.
-remote: Counting objects: 100% (17/17), done.
-remote: Compressing objects: 100% (14/14), done.
-remote: Total 3009 (delta 13), reused 3 (delta 3), pack-reused 2992 (from 2)
-Receiving objects: 100% (3009/3009), 9.15 MiB | 4.61 MiB/s, done.
-Resolving deltas: 100% (1314/1314), done.
-ubuntu@ip-172-31-25-24:~$
 
-ubuntu@ip-172-31-25-24:~$ ls
-90DaysOfDevOps                                          a.txt      
+ ![image](https://github.com/user-attachments/assets/9144439d-bfc2-425e-ad4f-8e27e00a5055)
+
 
 
 ![image](https://github.com/user-attachments/assets/0b18fcbd-f3f6-457b-9528-441af8d4ad11)
