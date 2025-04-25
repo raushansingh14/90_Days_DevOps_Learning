@@ -53,6 +53,24 @@ git commit -m "Initial commit: Add info.txt with introductory content"
 
 ![image](https://github.com/user-attachments/assets/4e3db581-7296-422d-b86d-c20fafa86713)
 
+- Solution
+
+![image](https://github.com/user-attachments/assets/e2645304-9cca-4210-a658-43034720e8cb)
+
+![image](https://github.com/user-attachments/assets/5b357f8e-9f93-44fc-a53a-25ab4b95fa9a)
+
+
+# Task 4
+
+![image](https://github.com/user-attachments/assets/99f8a261-5e98-4c0f-97a3-d9bb9778742d)
+
+-Solution
+
+![image](https://github.com/user-attachments/assets/d4a52417-8f8a-4388-9794-e2a449d1b07b)
+
+
+
+
 
 
 
