@@ -4,10 +4,12 @@
 
 ![image](https://github.com/user-attachments/assets/d1cbbca9-313c-4991-9e4c-e46a4223212e)
 
-## note after resolving the conflict manually no need to again run `git merger` just do `git add` and after that `git commit -m "some message" ` . these command should be run where you doing merge lets say if you doing 
-  merge in master then only in master 
+## note after resolving the conflict manually no need to again run `git merger` just do `git add` and after that `git commit -m "some message" ` . these command should be run where you doing merge lets say 
+   if you doing merge in master then only in master .
+## Once you resolved the conflict content of file will only changed in master branch because there you doing merge . content of feature branch file will be intact
+  
 
-  Once you resolved the conflict content of file will only changed in master branch because there you doing merge . content of feature branch file will be intact
+  
 
 
 
